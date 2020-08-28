@@ -36,6 +36,9 @@ Ext.define('MyCRUD.view.displayData.DisplayDataView',{
             ]
         },
         {
+            iterate: function(){
+                
+            },
             layout: {
                 type: 'vbox',
                 align: 'left'

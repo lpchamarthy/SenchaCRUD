@@ -11,9 +11,7 @@ Ext.define('MyCRUD.view.dataForm.DataFormView',{
             labelAlign: 'top',
             name: 'name',
             id: 'name',
-            //validation 
             msgTarget: 'under',
-            //regex:,
             invalidText: 'Enter only letters'
         },
         {
@@ -22,10 +20,7 @@ Ext.define('MyCRUD.view.dataForm.DataFormView',{
             label: 'Description',
             name: 'description',
             id: 'desc',
-            //validation 
             msgTarget: 'under',
-            //regex:, // define the condition you would like to validate
-            //maskRe: , // set the max limit of characters that the field can accept.
             invalidText: 'Maximum limit is 50 letters'
 
         },
@@ -34,9 +29,7 @@ Ext.define('MyCRUD.view.dataForm.DataFormView',{
             labelAlign: 'top',
             name: 'jobTitle',
             id:'jobT',
-            //validation 
             msgTarget: 'under',
-            //regex:,
             invalidText: 'Enter only letters'
 
         }
